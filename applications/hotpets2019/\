@@ -1,0 +1,39 @@
+---
+title: "Applied Privacy Enhancing Technology for P2P Networks with p3lib"
+author: "Gonçalo Pestana (goncalo@hashmatter.com)"
+---
+
+**Abstract**: In this lightning talk, we discuss the importance of bridging the
+gap between research on Privacy Enhancing Technologies (PETs) for P2P networks
+and the current decentralized web industry. In addition, we discuss how to 
+design and implement practical software that can be used by system engineers to 
+enhance privacy of current P2P systems, while focusing on current open
+challenges in production systems such as IPFS and Dat.
+
+# The talk
+
+While the traction of large scale decentralized networks such as IPFS [@ipfs] and Dat
+[@dat] has recently increased, the research and application of Privacy Enhancing
+Technologies (PETs) for P2P networks has not 
+
+As P2P networks and decentralized systems (re)gain popularity among researchers
+and industry alike, it is important to design and implement
+decentralized systems that not only preserve users’ privacy but also deliver
+on scalability, performance and usability. Failing to deliver on those
+properties will render decentralized systems unusable and unattractive for
+mass adoption or as a viable alternative to centralized systems.
+
+## p3lib
+
+[@shadowwalker]
+[@octopus]
+[@sphinx]
+[@sphinx-or]
+
+
+
+## hashmatter
+
+# References
+
+
