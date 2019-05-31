@@ -32,16 +32,16 @@ way.
 gap between research on PETs for P2P networks
 and the current decentralized web industry. We also introduce p3lib [@p3lib], 
 a modular toolbox for system engineers to
-build secure and privacy P2P systems. p3lib implements a set of primitives and
+build secure and privacy preserving P2P systems. p3lib implements a set of primitives and
 protocols derived from academia work (onion routing, ShadowWalker [1], Octopus
 DHT lookup [2], plausible deniability for DHT lookups, onion routing on top of
 DHTs [@sphinx], [@sphinx-or] and others) that can be
 used by system developers to enhance privacy of P2P networks build on Dat, IPFS
-and, more generally, libp2p [@libp2p] and other P2P network stacks.
+and, more generally, libp2p [@libp2p] and other P2P networking stacks.
 
-While introducing p3lib, it is also out goal to outline the
-industry needs in terms of privacy engineering, discuss the current roadmap of the
-project and show how the research community can contribute.
+In addition, we outline the current industry needs in terms of privacy engineering, 
+introduce the roadmap p3lib and show how the research community can actively
+contribute with suggestions, research and implementation work.
 
 **hashmatter** At hashmatter [@hashmatter] we believe that P2P and decentralised
 networks will play an important role in the future of connected services. Our
