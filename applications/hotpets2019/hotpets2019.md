@@ -33,10 +33,11 @@ gap between research on PETs for P2P networks
 and the current decentralized web industry. We also introduce p3lib [@p3lib], 
 a modular toolbox for system engineers to
 build secure and privacy preserving P2P systems. p3lib implements a set of primitives and
-protocols derived from academia work (onion routing, ShadowWalker [1], Octopus
-DHT lookup [2], plausible deniability for DHT lookups, onion routing on top of
-DHTs [@sphinx], [@sphinx-or] and others) that can be
-used by system developers to enhance privacy of P2P networks build on Dat, IPFS
+protocols derived from academia work such as Onion Routing on top of arbitrary overlay
+networks [@sphinx], [@sphinx-or], ShadowWalker [1], Octopus
+DHT lookup [2], plausible deniability for DHT lookups, among and others. The goal is
+to provide modular software implementing those primitives that can 
+used by system developers to enhance privacy of P2P services built on top of Dat, IPFS
 and, more generally, libp2p [@libp2p] and other P2P networking stacks.
 
 In addition, we outline the current industry needs in terms of privacy engineering, 
