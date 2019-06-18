@@ -22,12 +22,8 @@ Currently, we are focusing on three fronts: [research](https://github.com/gpesta
 [development](https://github.com/hashmatter/p3lib) and 
 [community outreach](https://github.com/hashmatter/outreach). 
 
-**WIP** The roadmap for the remaining of 2019 is being defined in issue
-[#4](https://github.com/hashmatter/pm/issues/4). Once it is completed, this
-document will be updated.
-
 ### A. Research 
-The high level research goals are understand what are the current
+The high level research goals are to define and articulate the problem space of privacy leaks of DHTs, both abstractly and in current projects in the space.
 
 - [ ] Paper: Study metadata leak vectors of current decentralized networks.
 - [ ] Paper: Privacy Preserving Distributed Hash Tables - Reality and Future [open source research (github)](https://github.com/gpestana/p2psec/tree/master/papers/privacy_preserving_dht)
@@ -36,7 +32,7 @@ The high level research goals are understand what are the current
 ### B. p3lib development
 The high level development goal for 2019 is to develop the first iteration
 (v0.1) building blocks that enable decentralized application developers to
-use with libp2p. We should also aim at steering the development and future work based on what current projects need.
+use with libp2p.
 
 **0) Documentations and specs**
 - [ ] Webpage with p3lib modules documentation and specs; 
@@ -55,7 +51,7 @@ use with libp2p. We should also aim at steering the development and future work 
 
 ### C.  Community outreach
 The high level community outreach goal consists on documenting and raise awareness about the
-the privacy leaks of DHTs and P2P routing networks. In addition, we aims at raching out to project owners and community to discuss and understand which problems need to be addressed first.
+the privacy leaks of DHTs and P2P routing protocols. In addition, we aims at reaching out to project owners and community to discuss and understand which problems need to be prioritized.
 
 **Understanding the current community needs**
 - [ ] Reach out to 5 projects in the space using DHTs to undestand how
@@ -71,6 +67,18 @@ the privacy leaks of DHTs and P2P routing networks. In addition, we aims at rach
 - [ ] Screencast (p3lib-fullrt) demonstrate how to use p3lib-fulltr protocol with libp2p
 
 **note** *if you are interested in hosting a talk/workshop about p3lib or privacy preserving P2P networks, [let us know](mailto:gpestana@hashmatter.com?subject=hashmatter%20community)!*
+
+
+## How to contribute
+
+There are several way you can help:
+
+- Open an issue with general suggestions and comments (https://github.com/hashmatter/pm/issues)
+- Contribute for p3lib with specs design and development (https://github.com/hashmatter/p3lib)
+- Contribute on the research efforts (https://github.com/hashmatter/research)
+- Reach our with any suggestions and comments (mx _at_ hashmatter.com or gpestana _at_ hashmatter.com)
+- Invite us over for a workshop or talk to your event :)
+
 
 ---
 [hashmatter.com](https://hashmatter.com)
