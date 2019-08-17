@@ -2,17 +2,16 @@
 
 *Draft - to be locked by end of June*
 
-[**hashmatter**](https://hashmatter.com) is a research and development lab focused on improving distributed and P2P protocols towards better privacy and metadata resistance. Our long term vision is to build software that enables the privacy preserving and metadata resistant decentralised web.
-
+[**hashmatter**](https://hashmatter.com) is a research and development lab focused on improving distributed and P2P protocols towards better privacy and metadata resistance. Our long term vision is to build software that enables the privacy preserving and metadata resistant decentralized web.
 
 ### Background
 
-The ethos of the P2P community and the decentralized web is characterized by allowing people and communities to interoperate and collaborate without the need for external stewardship. This new paradigm opens doors for user self-sovereignty, personal data ownership and freedom from central authorities which incentives tend to lock-in their users and to hold and monetize private data in order to maximize their profits. However, P2P and decentralized protocols are complex and collaboration between multiple independent parties often leaks metadata that can be used to target individuals and communities. While centralized client-server designs disclose user’s behaviour and social graph to one centralized entity (the service owner), naive decentralized systems potentially disclose that information to everyone in the network. **While it is clear that current P2P systems are not focusing on metadata privacy, failing to deliver it will render decentralized systems unusable and unattractive for mass adoption or as a viable alternative to centralized services.**
+The ethos of the P2P community and the decentralized web is characterized by allowing people and communities to interoperate and collaborate without the need for external stewardship. This new paradigm opens doors for user self-sovereignty, personal data ownership and freedom from central authorities which incentives tend to lock-in their users and to hold and monetize private data in order to maximize their profits. However, P2P and decentralized protocols are complex and collaboration between multiple independent parties often leaks metadata that can be used to target individuals and communities. While centralized client-server designs disclose user’s behavior and social graph to one centralized entity (the service owner), naive decentralized systems potentially disclose that information to everyone in the network. **While it is clear that current P2P systems are not focusing on metadata privacy, failing to deliver it will render decentralized systems unusable and unattractive for mass adoption or as a viable alternative to centralized services.**
 
-It is hard to design and implement collaboration networks (read P2P and decentralised) without leaking considerable amount of informations about user behavior, her intersts and social graph: Peer collaboration requires, by definition, to . In addition, mentail models, concepts and primitives that enable privacy preserving decentralized and P2P systems are lacking. There is also a large gap between academic research on privacy preserving P2P networking and currently deployed  P2P projects. At hashmatter we are commited to:
+It is hard to design and implement collaboration networks (read P2P and decentralized) without leaking considerable amount of informations about user behavior, her interests and social graph: Peer collaboration requires, by definition, to . In addition, mental models, concepts and primitives that enable privacy preserving decentralized and P2P systems are lacking. There is also a large gap between academic research on privacy preserving P2P networking and currently deployed  P2P projects. At hashmatter we are committed to:
 
 - close the gap between academia and industry: bring the of the art on research of privacy preserving networks to the industry as soon as possible;
-- building modular and easy to use primitives and protocols for enhacing privacy in P2P networks;
+- building modular and easy to use primitives and protocols for enhancing privacy in P2P networks;
 - improve developer and system designer awareness about privacy enhancing technologies;
 - measure and assess privacy in current P2P networks and understand how to improve privacy of current P2P networks and services.
 
@@ -37,37 +36,38 @@ use with libp2p.
 **0) Documentations and specs**
 - [ ] Webpage with p3lib modules documentation and specs; 
 
-**1) Onion routing on top of DHT**
+**1) Onion routing for enhancing privacy of DHT lookups**
 - [ ] Implement secure path discovery;
 - [ ] 2 project using or experimenting with the protocol;
-- [ ] study and measure entropy and performance in the DHT context. 
-    
- **2) Octopus DHT lookup protocol**
-- [ ] Define specs for first interations of an adapted Octopus lookup protocol;
-- [ ] 2 project using or experimenting with the protocol;
+- [ ] study and measure entropy and performance of DHT lookups using p3lib-sphinx
 
- **3) Multiple plausible deniability protocols for libp2p**
- - [ ] specs and implementation of 1 plausible deniability proocols for libp2p
+ **3) Sinkhole protocol**
+ - [ ] Specs of Sinkhole protocol (using cPIR scheme)
+ - [ ] Implement server library v0.1
+ - [ ] Implement client library v0.1
+ - [ ] Deploy "Pinata"-like service for private DHT lookups in IPFS
 
 ### C.  Community outreach
-The high level community outreach goal consists on documenting and raise awareness about the
-the privacy leaks of DHTs and P2P routing protocols. In addition, we aims at reaching out to project owners and community to discuss and understand which problems need to be prioritized.
+The high level community outreach goal consists on documenting and raise awareness about the privacy leaks of DHTs and P2P network protocols. In addition, we aims at reaching out to project owners and community to discuss and understand which problems need to be prioritized.
 
 **Understanding the current community needs**
-- [ ] Reach out to 5 projects in the space using DHTs to undestand how
+- [ ] Reach out to 5 projects in the space using DHTs to understand how p3lib can be used in the wild and what are the project needs.
 
 **Talks, workshops, demos**
 
+- [ ] Privacy Preserving P2P networks screencast sessions
+	- [ ] How does Kademlia DHT work and its privacy attack vector?
+	- [ ] Peer assisted CDNs and its privacy attack vector?
+	- [ ] Techniques to improve privacy of P2P networks
+	- [ ] p3lib-sinkhole: demonstrate how to use p3lib-sinkhole with IPFS
+	- [ ] p3lib-sphinx: demonstrate how to use p3lib-sphinx with libp2p
+	- [ ] p3lib-fullrt: demonstrate how to use p3lib-fulltr protocol with libp2p
+	- more ...
+
 - [x] Talk at DTN 2019
 - [ ] Developer workshop at Web3Summit
-- [ ] Talk at HotPETs 2019
-- [ ] ... (more)
-
-- [ ] Screencast (p3lib-sphinx) demonstrate how to use p3lib-sphinx with libp2p
-- [ ] Screencast (p3lib-fullrt) demonstrate how to use p3lib-fulltr protocol with libp2p
 
 **note** *if you are interested in hosting a talk/workshop about p3lib or privacy preserving P2P networks, [let us know](mailto:gpestana@hashmatter.com?subject=hashmatter%20community)!*
-
 
 ## How to contribute
 
