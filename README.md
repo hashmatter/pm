@@ -1,19 +1,17 @@
 # hashmatter 
 
-*Draft - to be locked by end of June*
-
-[**hashmatter**](https://hashmatter.com) is a research and development lab focused on improving distributed and P2P protocols towards better privacy and metadata resistance. Our long term vision is to build software that enables the privacy preserving and metadata resistant decentralized web.
+[**hashmatter**](https://hashmatter.com) is a research and development lab focused on improving distributed and P2P protocols towards better privacy and metadata resistance. Our mission is to build software that enables developers to build a privacy preserving and metadata resistant decentralized web.
 
 ### Background
 
-The ethos of the P2P community and the decentralized web is characterized by allowing people and communities to interoperate and collaborate without the need for external stewardship. This new paradigm opens doors for user self-sovereignty, personal data ownership and freedom from central authorities which incentives tend to lock-in their users and to hold and monetize private data in order to maximize their profits. However, P2P and decentralized protocols are complex and collaboration between multiple independent parties often leaks metadata that can be used to target individuals and communities. While centralized client-server designs disclose user’s behavior and social graph to one centralized entity (the service owner), naive decentralized systems potentially disclose that information to everyone in the network. **While it is clear that current P2P systems are not focusing on metadata privacy, failing to deliver it will render decentralized systems unusable and unattractive for mass adoption or as a viable alternative to centralized services.**
+The ethos of the P2P community and the decentralized web is characterized by allowing people and communities to interoperate and collaborate without the need for external stewardship. This new paradigm opens doors for user self-sovereignty, personal data ownership and freedom from central authorities which incentives tend to lock-in their users and to use and monetize private data in order to maximize their profits. However, P2P and decentralized protocols are complex and collaboration between multiple untrusted parties often leaks metadata that can be used to target individuals and communities. While centralized client-server designs disclose user’s behavior and social graph to one centralized entity (the service owner), naive decentralized systems potentially disclose that information to everyone in the network. **Current P2P and dweb projects are not focusing on privacy. Failing to deliver on privacy and security will render decentralized application unusable and unattractive for mass adoption or as a viable alternative to centralized services.**
 
-It is hard to design and implement collaboration networks (read P2P and decentralized) without leaking considerable amount of informations about user behavior, her interests and social graph: Peer collaboration requires, by definition, to . In addition, mental models, concepts and primitives that enable privacy preserving decentralized and P2P systems are lacking. There is also a large gap between academic research on privacy preserving P2P networking and currently deployed  P2P projects. At hashmatter we are committed to:
+It is hard to design and implement collaboration networks (read P2P and decentralized) without leaking considerable amount of informations about user behavior, her interests and social graph. In addition, the community lacks the mental models, concepts and primitives necessary to build privacy preserving decentralized and P2P systems. There is a large gap between academic research on privacy and production systems. At hashmatter we are committed to:
 
-- close the gap between academia and industry: bring the of the art on research of privacy preserving networks to the industry as soon as possible;
-- building modular and easy to use primitives and protocols for enhancing privacy in P2P networks;
-- improve developer and system designer awareness about privacy enhancing technologies;
-- measure and assess privacy in current P2P networks and understand how to improve privacy of current P2P networks and services.
+- Close the gap between academia and industry: To bring the state the art on research of privacy preserving networks to the industry as soon as possible;
+- To build modular and easy to use primitives and protocols for enhancing privacy in P2P networks;
+- To improve developer and system designer awareness about privacy enhancing technologies;
+- To measure and assess privacy in current P2P networks and understand how to improve privacy of current P2P networks and services.
 
 ## Roadmap (Q3, Q4)
 
